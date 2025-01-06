@@ -87,7 +87,7 @@ function App () {
   
 }
 
-// We can use react.memo that'll lets us skip re-renderning a component when its props are unchanged.
+// We can use react.memo that'll lets us skip re-rendering a component when its props are unchanged.
 
   // function Header ({title}){
   //     return <div>

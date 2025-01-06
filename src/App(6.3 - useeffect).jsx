@@ -20,6 +20,8 @@ function App(){
 
     const incomeTax = (bankData.income + exchangeData.returns)* 0.3;
 
+    
+
     return (
         <div>
             Sup, Your income Tax returns are {incomeTax}

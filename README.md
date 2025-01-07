@@ -1,8 +1,11 @@
-# React + Vite
+Topics I have Done so Far - 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Hooks - useState, useEffect, useMemo, useCallback, useNavigate
+2. Re-rendering 
+3. Managing state 
+4. Data fetching from fetch vs data fetching from axios
+5. Lazy loading
+6. Suspense API
+7. Routing (Types- Browser Router, Routes, Route)
+8. Wrapper Components.
+9. Prop Drilling ( LCA - Lowest common Ancestor) and Context API 

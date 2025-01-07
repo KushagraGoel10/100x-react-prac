@@ -1,6 +1,11 @@
 import React, { useMemo } from 'react'
 import { useState, useEffect } from 'react';
 
+//UseState ( ) = no argument
+//useState ( [] ) = empty array
+//useState ( {} ) = empty object
+
+
 function App () {
 
     const[exchangeData1, setExchangeData1] = useState({});
@@ -52,10 +57,7 @@ function App () {
 
     const GST = ( cryptoExchange1 + bankData.income )* 0.18;
 
-
-
-
-
+    
     //useCallback 
     // 1. It is not about minimizing the amount of code that is run
     // 2. it is about not rendering a child component, if the function hasn't / doesn't need to change across renders. 

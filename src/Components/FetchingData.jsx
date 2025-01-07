@@ -12,6 +12,7 @@ function FetchingData() {
                 console.log(response.statusText);
                 console.log(response.data);
                 console.log(response.config);
+            
 
                 setPosts(response.data);
             } catch (error) {

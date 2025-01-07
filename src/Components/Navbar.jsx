@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
 
-    const navigate = useNavigate ();
   return (
     // <div>
     //    <button onClick={ () =>{
@@ -16,6 +15,7 @@ const Navbar = () => {
     //     window.location.href= "/"
     //    }}>LandingPage</button>
     // </div>
+
 
     <div>
         

@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 //useState ( [] ) = empty array
 //useState ( {} ) = empty object
 
-
 function App () {
 
     const[exchangeData1, setExchangeData1] = useState({});
@@ -66,7 +65,7 @@ function App () {
     <>
     <div>So your income tax on the crypto Exchange is {incomeTax}</div>
     <div>So normal tax is {GST} </div>
-    </>
+      </>
   )
 }
 

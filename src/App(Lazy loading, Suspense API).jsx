@@ -15,7 +15,7 @@ const  Dashboard = lazy(() => import("./Components/Dashboard"));
 const LandingPage = lazy (() => import('./Components/LandingPage'));
 
 
-function App(){
+function App2(){
 
     //Suspense API- The Suspense API in React is a feature that allows you to handle asynchronous operations
     //  (like data fetching, lazy loading of components, etc.) in a more declarative and smooth way. It helps in waiting for 
@@ -53,4 +53,4 @@ function AppBar (){
 
 }
 
-export default App;
+export default App2;

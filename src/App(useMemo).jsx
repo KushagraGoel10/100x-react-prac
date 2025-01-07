@@ -50,7 +50,7 @@ function App () {
         return exchangeData2.returns + exchangeData1.returns;
     }, [exchangeData1, exchangeData2]);
 
-    const normalTax = ( cryptoExchange1 + bankData.income )* 0.18;
+    const GST = ( cryptoExchange1 + bankData.income )* 0.18;
 
 
 
@@ -63,7 +63,7 @@ function App () {
   return (
     <>
     <div>So your income tax on the crypto Exchange is {incomeTax}</div>
-    <div>So normal tax is {normalTax} </div>
+    <div>So normal tax is {GST} </div>
     </>
   )
 }

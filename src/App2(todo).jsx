@@ -62,6 +62,8 @@ const App = () => {
     //Whenever you are rendering a list do make sure your list has a unique indentifier to every element (here it is id), and make sure 
     // key = that specific unique identifier you are providing.
     // Where do you need key -> Whenever you are iterating over an array you need key.  
+    
+
     <div>   
         <button onClick ={addTodo}> Click here to add </button>
         {todos.map (todo => <Todo key ={todo.id} title={todo.title} desc={todo.desc} />)}

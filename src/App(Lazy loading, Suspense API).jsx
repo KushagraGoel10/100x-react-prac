@@ -10,12 +10,12 @@ import {lazy, Suspense } from 'react';
 // const ComponentName = React.lazy ( () => import ( " ./Components/ComponentName"));
 
 
-const  Dashboard = lazy(() => import("./Components/Dashboard"));
+const  Dashboard = lazy (() => import("./Components/Dashboard"));
 //either works ^ >
 const LandingPage = lazy (() => import('./Components/LandingPage'));
 
 
-function App2(){
+function App(){
 
     //Suspense API- The Suspense API in React is a feature that allows you to handle asynchronous operations
     //  (like data fetching, lazy loading of components, etc.) in a more declarative and smooth way. It helps in waiting for 
@@ -26,7 +26,6 @@ function App2(){
   <BrowserRouter> 
   <AppBar />
     <Routes>
-
       <Route path = "/dashboard" element = {<Suspense fallback ={"loading..."}><Dashboard /></Suspense>} />
       <Route path = "/" element = {<Suspense fallback ={"loading ..."}><LandingPage /> </Suspense>}/>
     </Routes>  
@@ -53,4 +52,4 @@ function AppBar (){
 
 }
 
-export default App2;
+export default App;

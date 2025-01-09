@@ -71,6 +71,7 @@ const App = () => {
   )
 }
 
+// { todos.map (todo => <Todo key = {todo.id} title={todo.title} desc = {todo.desc} /> )}  -> map and key 
 
 function Todo({title, desc} ){
     return <div>

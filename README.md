@@ -1,3 +1,5 @@
+
+
 Topics I have Done so Far - 
 
 1. Hooks - useState, useEffect, useMemo, useCallback, useNavigate
@@ -9,3 +11,14 @@ Topics I have Done so Far -
 7. Routing (Types- Browser Router, Routes, Route)
 8. Wrapper Components.
 9. Prop Drilling ( LCA - Lowest common Ancestor) and Context API 
+10. Recoil - For state management 
+
+
+
+
+
+
+
+
+
+

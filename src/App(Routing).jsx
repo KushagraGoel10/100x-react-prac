@@ -45,7 +45,7 @@ function AppBar (){
        <div>
           <button onClick={ () =>{
             navigate ("/");
-             }}>Landing Page</button>
+             }}>Landing Pag saje</button>
         <button onClick ={ () =>{
             navigate("/dashboard");
         }}> Dashboard </button>

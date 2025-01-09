@@ -14,6 +14,7 @@ const  Dashboard = lazy (() => import("./Components/Dashboard"));
 //either works ^ >
 const LandingPage = lazy (() => import('./Components/LandingPage'));
 
+const FetchingData = lazy (() => import ('./Components/FetchingData'));
 
 function App(){
 

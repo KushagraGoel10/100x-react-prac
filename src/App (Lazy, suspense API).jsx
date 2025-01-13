@@ -12,9 +12,12 @@ import {lazy, Suspense } from 'react';
 
 const  Dashboard = lazy (() => import("./Components/Dashboard"));
 //either works ^ >
-const LandingPage = lazy (() => import('./Components/LandingPage'));
-
 const FetchingData = lazy (() => import ('./Components/FetchingData'));
+
+const LandingPage= lazy (() => import('./Components/LandingPage'));
+
+const HeaderWithButton = lazy (() => import ('./Components/HeaderWithButton'));
+
 
 function App(){
 
@@ -29,6 +32,7 @@ function App(){
     <Routes>
       <Route path = "/dashboard" element = {<Suspense fallback ={"loading..."}><Dashboard /></Suspense>} />
       <Route path = "/" element = {<Suspense fallback ={"loading ..."}><LandingPage /> </Suspense>}/>
+      <Route path = "/headerwithbutton" elemnt = {<Suspense fallback = {"loading...."}><HeaderWithButton /></Suspense>} />
     </Routes>  
   </BrowserRouter>
   </div>

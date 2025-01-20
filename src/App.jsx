@@ -24,7 +24,7 @@ function Count ({setCount}) {
     <CountRenderer />
     <Buttons setCount={setCount} />
   </div>
-  )
+ )
 };
 
 

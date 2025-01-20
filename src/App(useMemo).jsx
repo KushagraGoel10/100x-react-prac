@@ -28,7 +28,7 @@ function App () {
             setBankData({
                 income: 100
             });
-        }, 5000)
+        }, 1000)
     }, []);
 
     useEffect ( () =>{
@@ -56,6 +56,24 @@ function App () {
 
     const GST = ( cryptoExchange1 + bankData.income )* 0.18;
 
+
+    const cryptoExchange2 = useMemo ( () => {
+        console.log("nsndan")
+        return exchangeData2.returns + exchangeData1. returns;
+    }, [exchangeData1, exchangeData2]);
+
+    const GST1 = ( cryptoExchange1 + bankData.income)*0.56;
+
+
+    const cryptoCalculation = useMemo ( ( ) => {
+        console.log(" Calculating crypto exchange behind the scenes ")
+        return exchangeData2.returns + exchangeData1.returns;
+
+    }, [exchangeData1, exchangeData2]);
+
+
+    
+
     
     //useCallback 
     // 1. It is not about minimizing the amount of code that is run
@@ -65,7 +83,8 @@ function App () {
     <>
     <div>So your income tax on the crypto Exchange is {incomeTax}</div>
     <div>So normal tax is {GST} </div>
-      </>
+    <div>So the tax in most of the high tax paying countries, like denmark, sweden : {GST1}</div>
+    </>
   )
 }
 

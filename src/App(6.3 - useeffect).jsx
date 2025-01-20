@@ -21,6 +21,17 @@ function App(){
     const incomeTax = (bankData.income + exchangeData.returns)* 0.3;
 
     
+    useEffect ( () => {
+        setTimeout ( () =>{
+            setBankData ({ income : 3090})
+        }, 4000);
+    }, []);
+
+    useEffect ( () => {
+        setTimeout ( ( ) =>{
+            setBankData ( { income : 6000})
+        }, 9000);
+    }, []);
 
     return (
         <div>
